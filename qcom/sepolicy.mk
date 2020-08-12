@@ -4,8 +4,8 @@
 #
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/gzosp/sepolicy/qcom/private
+    device/narvis/sepolicy/qcom/private
 
 BOARD_SEPOLICY_DIRS += \
-    device/gzosp/sepolicy/qcom/common \
-    device/gzosp/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
+    device/narvis/sepolicy/qcom/common \
+    device/narvis/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
